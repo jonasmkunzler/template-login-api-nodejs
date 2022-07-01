@@ -11,7 +11,7 @@
   <hr />
  🛠 Instalação:
    <p>
-    npm install
+    npm install <br>
     npm start
    </p>
   
@@ -21,6 +21,6 @@
     Fora da pasta src criar o arquivo .env, seguir o modelo disponibilizado .env.example
   </p>
   <p>
-    npm i --save-dev nodemon
+    npm i --save-dev nodemon <br>
     npm run dev
   </p>
