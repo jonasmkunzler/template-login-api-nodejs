@@ -1,6 +1,6 @@
 const requestIp = require('request-ip')
 
-const clienteIpList = ['45.168.129.38','::1', '192.168.0.105']
+const clienteIpList = ['::1', '192.168.0.105'] //::1 libera o localhost
 
 const ipMiddleware = function(req, res, next) {
     const clientIp = requestIp.getClientIp(req);
